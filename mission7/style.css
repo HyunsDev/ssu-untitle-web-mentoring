@@ -1,0 +1,36 @@
+body {
+    background-color: #1d2d4f;
+    color: #a8a8a8;
+}
+
+h1 {
+    font-size: 128px;
+    color: #ffffff;
+}
+
+h2,
+h3 {
+    color: #ffff00;
+}
+
+.bold {
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.big .small {
+    font-size: 14px;
+}
+
+#right {
+    text-align: right;
+}
