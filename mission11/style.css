@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d2d4f;
+    min-height: 200vh;
+}
+
+.boxs {
+    display: flex;
+    gap: 8px;
+    padding: 32px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    position: relative;
+}
+
+.box2 {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+}
+
+.box3 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
