@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d2d4f;
+    min-height: 200vh;
+}
+
+.box {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 32px;
+    padding: 32px;
+    display: flex;
+
+    text-align: center;
+}
+
+.pc {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+@media (max-width: 767px) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
