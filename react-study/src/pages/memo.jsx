@@ -31,6 +31,11 @@ export function MemoPage() {
         localStorage.setItem("data", event.target.value);
     };
 
+    const removeMemo = () => {
+        setMemo("");
+        localStorage.removeItem("data");
+    };
+
     return (
         <Center>
             <H1>언타이틀 웹 메모장</H1>
@@ -39,7 +44,7 @@ export function MemoPage() {
                 value={memo}
                 onChange={(e) => onChange(e)}
             ></Textarea>
-            <Button>모두 지우기</Button>
+            <Button onClick={removeMemo}>모두 지우기</Button>
             <Char />
             <Github />
         </Center>
